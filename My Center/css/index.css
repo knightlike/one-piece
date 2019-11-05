@@ -1,0 +1,120 @@
+body{
+	background-color: #e5fcff;
+}
+#index-header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: .82rem;
+	width: 100%;
+	align-content: center;
+	position: fixed;z-index: 99999;
+	background-color: white;
+}
+#index-header .mypic img{
+	display: block;
+	width: .72rem;
+	height: .72rem;
+}
+#index-header .search{
+	width: 75%;
+	height: .61rem;
+}
+#index-header .search input{
+	width: 100%;
+	height: .61rem;
+	padding: 0 .2rem;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: #008495;
+}
+::-moz-placeholder{ color:#ffffff;}
+::-webkit-input-placeholder{ color:#ffffff;}
+::-ms-input-placeholder{ color:#ffffff;}
+#index-header .scan img{
+	display: block;
+	width: .64rem;
+}
+.banner{
+	width: 100%;
+	padding-top: .82rem;
+}
+.banner img{
+	display: block;
+	width: 100%;
+}
+.swiper-container{
+  --swiper-theme-color: #ff6600;
+  --swiper-pagination-color: #00ff33;/* 两种都可以 */
+}
+.index-menu{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	padding:.3rem 0;
+	background-color: white;
+	border-radius: 10px;
+	margin: .1rem;
+}
+.index-menu figure{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content:center;
+}
+.index-menu figure{
+	width: 25%;
+}
+.index-menu figure img{
+	display: block;
+	width: .7rem;
+	height: .7rem;
+	margin-bottom:.1rem;
+}
+.index-menu figure figcaption{
+	display: block;
+	width: 100%;
+	font-size: .14rem;
+	text-align: center;
+}
+
+.index-recommend{
+	/* padding:.2rem; */
+/* 	background-color: white;
+	border-radius: 10px;
+	margin: .1rem;
+	box-sizing: border-box; */
+}
+.index-recommend dl{
+	margin-bottom: .4rem;
+	background-color: white;
+	border-radius: 10px;
+	margin: .1rem;
+	padding:.2rem;
+	box-sizing: border-box;
+}
+.index-recommend dl dt{
+	display: flex;
+	flex-flow: row wrap;
+	padding:0 0 .1rem 0;
+	justify-content: space-between;
+	border-bottom: 1px solid #ddd;
+}
+.index-recommend dl dt span{
+	font-size: .26rem;
+	font-weight: bold;
+}
+.index-recommend dl dt a{
+	color:#f95708;
+	font-size: .2rem;
+}
+.index-recommend dl dd{
+	padding-top:.1rem;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.index-recommend dl dd img{
+	display: block;
+	width: 1.37rem;
+	height: 2rem;
+}

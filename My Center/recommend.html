@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>推荐页</title>
+	<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	<link rel="stylesheet" type="text/css" href="css/recommend.css"/>
+	<script type="text/javascript">
+		;(function(){ 
+		  let html=document.documentElement,winW=window.innerWidth,desginW=750;
+		  let htmlRem=function(){
+		    if(winW>=desginW){
+		      html.style.fontSize='100px';
+			  return;
+		    }
+		    html.style.fontSize=(winW/desginW)*100+'px';
+		  }
+		  htmlRem();
+		  window.addEventListener('resize',htmlRem);
+		})()
+	</script>
+</head>
+<body>
+	<header class="recommend-head">
+		<p>热门推荐</p>
+	</header>
+	<div class="recommend-text">
+		<h2>巅峰榜</h2>
+	</div>
+	<div class="recommend-menu">
+		<div class="rec-text">
+			<dl>
+				<dt><span>历史类</span></dt>
+				<dd><span>1.史记--司马迁</span></dd>
+				<dd>2.万历十五年--黄仁宇</dd>
+				<dd>3.吕著三国史话--吕思勉</dd>
+			</dl>
+		</div>
+		<div class="rec-pic">
+			<img src="img/book2.png">
+			<div class="hot">219人读过</div>
+		</div>
+	</div>
+	<div class="recommend-menu">
+		<div class="rec-text">
+			<dl>
+				<dt><span>文学类</span></dt>
+				<dd><span>1.麦田里的守望者--塞林格</span></dd>
+				<dd>2.父与子--屠格涅夫</dd>
+				<dd>3.悲惨世界--维克多·雨果</dd>
+			</dl>
+		</div>
+		<div class="rec-pic">
+			<img src="img/book4.png">
+			<div class="hot">219人读过</div>
+		</div>
+	</div>
+	<div class="recommend-menu">
+		<div class="rec-text">
+			<dl>
+				<dt><span>艺术类</span></dt>
+				<dd><span>1.艺术的故事--贡布里希</span></dd>
+				<dd>2.艺术发展史--贡布里希</dd>
+				<dd>3.美的历程--李泽厚</dd>
+			</dl>
+		</div>
+		<div class="rec-pic">
+			<img src="img/book5.png">
+			<div class="hot">219人读过</div>
+		</div>
+	</div>
+	<div class="recommend-text">
+		<h3>热门推荐榜</h3>
+	</div>
+	<div class="recommend-menu" style="margin-bottom: 1.2rem;">
+		<div class="rec-text">
+			<dl>
+				<dt><span>艺术类</span></dt>
+				<dd><span>1.艺术的故事--贡布里希</span></dd>
+				<dd>2.艺术发展史--贡布里希</dd>
+				<dd>3.美的历程--李泽厚</dd>
+			</dl>
+		</div>
+		<div class="rec-pic">
+			<img src="img/book7.png">
+			<div class="hot">219人读过</div>
+		</div>
+	</div>
+	<footer id="footer">
+		<figure>
+			<img src="img/home.png" alt="">
+			<figcaption>首页</figcaption>
+		</figure>
+		<figure>
+			<img src="img/commented.png" alt="">
+			<figcaption>推荐</figcaption>
+		</figure>
+		<figure>
+			<img src="img/classify.png" alt="">
+			<figcaption>分类</figcaption>
+		</figure>
+		<figure>
+			<img src="img/my.png" alt="">
+			<figcaption>我的</figcaption>
+		</figure>
+	</footer>
+</body>
+</html>

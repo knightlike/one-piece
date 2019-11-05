@@ -1,0 +1,49 @@
+
+.logo{
+	width: 100%;
+	margin-top: 5.5625rem;
+/* 	border: 1px solid goldenrod; */
+}
+.logo img{
+	/* 1/16rem=1px */
+	display: block;
+	width: 3rem;
+	margin: 0 auto;
+}
+.fm{
+	margin: 90%;
+	margin:3.43rem auto 0;
+}
+.fm ul li{
+	display: flex;
+	padding-left: 2rem;
+	height: 2rem;
+	border-bottom: 1px solid #eee;
+	margin: 0.31rem 0;
+}
+.fm ul li:nth-of-type(1){
+	height: 2rem;
+	background: url(../img/phone.png) no-repeat left top;
+	background-size: 1.5rem;
+}
+.fm ul li:nth-of-type(2){
+	height: 2rem;
+	background: url(../img/pwd.png) no-repeat left top;
+	background-size: 1.5rem;
+}
+.fm ul li input{
+	width: 100%;
+	/* padding-left: 2rem; */
+}
+.fm a{
+	width:60%;
+	color:#11515d;
+	display: block;
+	font-size: 1.06rem;
+	padding:0.62rem 0;
+	letter-spacing: 5px;
+	text-align: center;
+	border-radius: 8px;
+	margin:3.12rem auto 0;
+	border:2px solid #c4d6d9;
+}

@@ -1,0 +1,87 @@
+.recommend-head{
+	background-color: #008495;
+	height: .88rem;
+	width: 100%;
+	background-size: cover;
+}
+.recommend-head p{
+	text-align: center;
+	color: white;
+	line-height: .88rem;
+	font-size: 20px;
+}
+.recommend-text{
+	height: .8rem;
+	/* border: 1px solid #000000; */
+}
+.recommend-text h2{
+	font-size: .45rem;
+	font-weight: bold;
+	padding-left: 10px;
+	line-height: .8rem;
+}
+.recommend-text h3{
+	font-size: .38rem;
+	font-weight: bold;
+	padding-left: 10px;
+	line-height: .8rem;
+}
+.recommend-menu{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	background: #DDDDDD;
+	border-radius: 8px;
+	padding:.08rem;
+	margin:.1rem .2rem;
+	box-sizing: border-box;
+}
+.rec-text dl dt span:nth-of-type(1){
+	font-size: .30rem;
+	color:#333;
+}
+.rec-text dl dd span:nth-of-type(2){
+	font-size: .30rem;
+	color:#888;
+}
+.recommend-menu .rec-pic {
+	padding: .1rem;
+	/* width: 2.75rem;
+	height: 1.65rem; */
+	/* border:2px solid #ddd; */
+	border-radius: 8px;
+	overflow: hidden;
+	display: flex;
+	position: relative;
+	/* background: #FFFFFF; */
+}
+.recommend-menu .rec-pic img{
+	width: 100px;
+	height: 100px;
+	padding: .2rem;
+	border: 2px solid darkgray;
+	background: #FFFFFF;
+	border-radius: 8px;
+}
+.recommend-menu .rec-pic .hot{
+	width:100%;
+	position: absolute;bottom:0;left:0;
+	background:#fff url(../img/huoguo.png) no-repeat left center;
+	background-size: .48rem;
+	padding-left:.48rem;
+	box-sizing: border-box;
+}
+.recommend-menu .rec-text dl{
+	display: block;
+	padding-left: .2rem;
+	font-weight: bold;
+	padding-bottom: .2rem;
+}
+.recommend-menu .rec-text dl dt{
+	padding: .2rem 0;
+	font-size: 16px;
+}
+.recommend-menu .rec-text dl dd{
+	padding-bottom: .1rem;
+}

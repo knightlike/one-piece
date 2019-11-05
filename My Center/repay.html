@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	<link rel="stylesheet" type="text/css" href="css/repay.css"/>
+	<title>还书页</title>
+	<script type="text/javascript">
+		;(function(){
+		  let html=document.documentElement,winW=window.innerWidth,desginW=750;
+		  let htmlRem=function(){
+		    if(winW>=desginW){
+		      html.style.fontSize='100px';
+			  return;
+		    }
+		    html.style.fontSize=(winW/desginW)*100+'px';
+		  }
+		  htmlRem();
+		  window.addEventListener('resize',htmlRem);
+		})()
+	</script>
+</head>
+<body>
+	<header class="repay-header">
+		<a href="#"><img src="img/left%20jiantou.png" >
+		<p>我要还书</p>
+		<p> </p>
+		</a>
+	</header>
+	<menu class="repay-menu">
+		<input type="text" name="" id="" value="" placeholder="12523"/><button type="button">搜索</button>
+	</menu>
+	<main class="repay-main">
+		<div class="repay-pic">
+			<img src="img/book2.png" >
+		</div>	
+			<div class="repay-text"><dl>
+				<dt><span class="span">《红楼梦》</span>编号：14523</dt>
+				<dd>作者：曹雪芹 类别：经典名著</dd>
+				<dd>借阅者：默寒</dd>
+				<dd>状态：剩余20天</dd>
+				<dd class="repay-rep">
+				<button type="button">确认还书</button>
+				</dd>
+			</dl>
+		</div>
+	</main>
+	<p style="text-align: center;">我的其他未还</p>
+	<main class="repay-main">
+		<div class="repay-pic">
+			<img src="img/book5.png" >
+		</div>	
+			<div class="repay-text"><dl>
+				<dt><span class="span">《小王子》</span>编号：14567</dt>
+				<dd>作者：安托万 类别：经典名著</dd>
+				<dd>借阅者：默寒</dd>
+				<dd>状态：剩余21天</dd>
+				<dd class="repay-rep">
+				<button type="button">确认还书</button>
+				</dd>
+			</dl>
+		</div>
+	</main>
+	<main class="repay-main">
+		<div class="repay-pic">
+			<img src="img/book5.png" >
+		</div>	
+			<div class="repay-text"><dl>
+				<dt><span class="span">《小王子》</span>编号：14567</dt>
+				<dd>作者：安托万 类别：经典名著</dd>
+				<dd>借阅者：默寒</dd>
+				<dd>状态：剩余21天</dd>
+				<dd class="repay-rep">
+				<button type="button">确认还书</button>
+				</dd>
+			</dl>
+		</div>
+	</main>
+</body>
+</html>

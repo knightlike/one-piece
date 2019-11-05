@@ -1,0 +1,122 @@
+body{
+	background-color: #e5fcff;
+}
+.borrow-header{
+	background-color: #008495;
+	height: .88rem;
+	/* width: 100%; */
+}
+.borrow-header a{
+	height: .88rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.borrow-header img{
+	padding-left: 10px;
+	width: .32rem;
+	height: .32rem;
+}
+.borrow-header p{
+	color: white;
+	font-size: 20px;
+	padding-right:10px;
+}
+.borrow-menu{
+	margin:0;
+	display: flex;
+	justify-content: space-between;
+	padding:.1rem .4rem .1rem ;
+	background-color: white
+}
+.borrow-menu input{
+	height: 0.6rem;
+	width: 80%;
+	border: 1px solid #000000;
+	/* background-color: #008495; */
+	border-radius: 8px;
+}
+.borrow-menu button{
+	border: 0px;
+	width: 1.87rem;
+	height: 0.6rem;
+	border-radius: 8px;
+	background-color: #008495;
+	color: white;
+	margin: 0 .6rem 0 .3rem;
+	font-size: .36rem;
+}
+.borrow-main{
+	height: 1.2rem;
+	background:white;
+	padding:.08rem;
+	margin:.1rem .2rem;
+	box-sizing: border-box;
+}
+.borrow-main dl dt{
+	height:.6rem;
+	width: 7.5rem;
+}
+.borrow-main .b1{
+	height: .6rem;
+	display: block;
+	float: left;
+	padding-top: .2rem;
+}
+.borrow-main .b2{
+	height: .6rem;
+	display: block;
+	float: right;
+	padding-top: .2rem;
+	padding-right: .4rem;
+}
+.borrow-main1{
+	height: 3.2rem;
+	background:white;
+	padding:.08rem;
+	margin:.1rem .2rem;
+	box-sizing: border-box;
+}
+.borrow-main1 dl dt{
+	height:.6rem;
+	width: 7.5rem;
+}
+.borrow-main1 .b1{
+	height: .6rem;
+	display: block;
+	float: left;
+	padding-top: .2rem;
+	line-height: .7rem;
+}
+.borrow-main1 .b2{
+	height: .6rem;
+	display: block;
+	float: right;
+	
+	padding-top: 1.8rem;
+	padding-right: .4rem;
+}
+.borrow-main1 .borrow-pic {
+	padding: .1rem;
+	display: block;
+	float: left;
+}
+.borrow-main1 .borrow-pic img{
+	width: 100px;
+	height: 100px;
+	padding: .2rem;
+	border: 1px solid #C4D6D9;
+	border-radius: 8px;
+}
+.borrow-rep button{
+	display: block;
+	border: 0px;
+	width: 4rem;
+	height: .8rem;
+	border-radius: 8px;
+	background-color: #008495;
+	color: white;
+	font-size: .4rem;
+	margin: 0 auto;
+	margin-top: .5rem;
+}

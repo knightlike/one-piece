@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	<link rel="stylesheet" type="text/css" href="css/search.css"/>
+	<title>搜索页</title>
+	<script type="text/javascript">
+		;(function(){
+		  let html=document.documentElement,winW=window.innerWidth,desginW=750;
+		  let htmlRem=function(){
+		    if(winW>=desginW){
+		      html.style.fontSize='100px';
+			  return;
+		    }
+		    html.style.fontSize=(winW/desginW)*100+'px';
+		  }
+		  htmlRem();
+		  window.addEventListener('resize',htmlRem);
+		})()
+	</script>
+</head>
+<body>
+	<header class="search-header">
+		<a href="#"><img src="img/left%20jiantou.png" >
+		<p>搜索</p>
+		<p> </p>
+		</a>
+	</header>
+	<menu class="search-menu">
+		<input type="text" name="" id="" value="" placeholder="请输入要查询的书籍"/><button type="button">搜索</button>
+	</menu>
+	<main class="search-main">
+		<div class="sea-pic">
+			<img src="img/book2.png" >
+		</div>	
+			<div class="sea-text"><dl>
+				<dt><span>《红楼梦》</span></dt>
+				<dd><span>作者：曹雪芹</span></dd>
+				<dd>类别：经典名著</dd>
+				<dd>已有65人看过</dd>
+			</dl>
+		</div>
+	</main>
+	<main class="search-main">
+		<div class="sea-pic">
+			<img src="img/book2.png" >
+		</div>	
+			<div class="sea-text"><dl>
+				<dt><span>《红楼梦》</span></dt>
+				<dd><span>作者：曹雪芹</span></dd>
+				<dd>类别：经典名著</dd>
+				<dd>已有65人看过</dd>
+			</dl>
+		</div>
+	</main>
+</body>
+</html>

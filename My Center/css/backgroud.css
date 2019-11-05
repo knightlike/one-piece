@@ -1,0 +1,128 @@
+.head{
+	background-color: #008495;
+	height: 1.87rem;
+	width: 100%;
+	background-size: cover;
+}
+.head p{
+	text-align: center;
+	color: white;
+	line-height: 1.87rem;
+	font-size: 20px;
+}
+body{
+	background-color: lightcyan;
+}
+.background{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	background: url(../img/background.png) no-repeat;
+	background-size: 100% 100%;
+}
+.header{
+	/* display: flex; */
+/* 	background: url(../img/background.png);
+	background-size: cover;
+	width: 100%;
+	padding: 0px; */
+	width: 100%;
+	height: 100%;
+	
+}
+.touxiang{
+	width:72px;
+	height:72px;
+	margin:0px auto; 
+	border-radius: 100%; 
+	padding-top: 30px;
+}
+.touxiang img {
+	border: 2px solid #fff;
+	border-radius: 100%; 
+	width: 100%;
+	background: url(../img/Head.png) no-repeat center;
+}
+
+.name{
+	font-size: 0.7rem;
+	text-align: center;
+	color: black;
+	margin: 0.5rem auto 0;
+	font-weight: bold;
+}
+.gztt{
+	font-size: 0.5rem;
+	text-align: center; 
+	color: black;
+	line-height: 1.5625rem;
+}
+.label{
+	/* display: flex;
+	justify-content: space-between; */
+	margin: 0.1rem auto; 
+	width: 80%;
+	border-bottom: 1px solid aqua;
+	height: 2.25rem;
+	padding-left:1.75rem;
+	line-height: 2.25rem;
+	font-size: 22px;
+	
+}
+.label ul li{
+	background-color: #FFFFFF;
+}
+.label img{
+	display: block;
+	float: right;
+	margin-top: 0.75rem;
+/* 	margin-left: 55%; */
+}
+.a1{
+	background: url(../img/collect.png) no-repeat left center;
+	background-size:1.05rem;
+}
+.a2{
+	background: url(../img/dynamic.png) no-repeat left center;
+	background-size:1.05rem;
+}
+.a3{
+	background: url(../img/record.png) no-repeat left center;
+	background-size:1.05rem;
+}
+.a4{
+	background: url(../img/install.png) no-repeat left center;
+	background-size:1.05rem;
+}
+.a5{
+	background: url(../img/situation.png) no-repeat left center;
+	background-size:1.05rem;
+	border-bottom: 0px;
+}
+/* .background img{
+	display: block;
+	width: 2rem;
+	margin: 0 auto;
+	padding: 0 auto;
+} */
+/* .background ul li:nth-of-type(1){
+	height:0;
+	
+}
+.background ul li:nth-of-type(2){
+	display: block;
+	width: 2.3rem;
+	margin:0.8rem auto 0;
+}
+.background ul li:nth-of-type(3){
+	display: block;
+	font-size: 0.37rem;
+	text-align: center;
+	margin-top: 4px;
+}
+.background ul li:nth-of-type(4){
+	display: block;
+	font-size: 0.20rem;
+	text-align: center;
+	margin-top: 4px;
+} */

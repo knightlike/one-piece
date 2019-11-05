@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	<link rel="stylesheet" type="text/css" href="css/guide.css"/>
+	<title>引导页</title>
+</head>
+<body> 
+	<section class="swiper-container">
+	  <div class="swiper-wrapper">
+	    <div class="swiper-slide"><img src="img/guide1.png" ></div>
+	    <div class="swiper-slide"><img src="img/guide2.png" ></div>
+		 <div class="swiper-slide"><img src="img/guide3.png" ></div>
+	  </div>
+	  <div class="swiper-pagination"></div><!--分页器。如果放置在swiper-container外面，需要自定义样式。-->
+	</section>
+</body>
+</html>
+<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+  <script>
+	var swiper = new Swiper('.swiper-container',{
+		pagination: {
+			el: '.swiper-pagination',
+		  },
+	});
+  </script>

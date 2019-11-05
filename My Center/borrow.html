@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	<link rel="stylesheet" type="text/css" href="css/borrow.css"/>
+	<title>借书页</title>
+	<script type="text/javascript">
+		;(function(){
+		  let html=document.documentElement,winW=window.innerWidth,desginW=750;
+		  let htmlRem=function(){
+		    if(winW>=desginW){
+		      html.style.fontSize='100px';
+			  return;
+		    }
+		    html.style.fontSize=(winW/desginW)*100+'px';
+		  }
+		  htmlRem();
+		  window.addEventListener('resize',htmlRem);
+		})()
+	</script>
+</head>
+<body>
+	<header class="borrow-header">
+		<a href="#"><img src="img/left%20jiantou.png" >
+		<p>我要借书</p>
+		<p> </p>
+		</a>
+	</header>
+	<menu class="borrow-menu">
+		<input type="text" name="" id="" value="" placeholder="14523"/><button type="button">搜索</button>
+	</menu>
+	<main class="borrow-main">
+		<dt><span class="span">借书人</span></dt>
+		<dd class="b1">默寒 16080902073</dd>
+		<dd class="b2">手机号：15511371873</dd>
+		</dl>
+	</main>
+	<main class="borrow-main">
+		<dt><span class="span">还书日期</span></dt>
+		<dd class="b1">2019-09-01</dd>
+		</dl>
+	</main>
+	<main class="borrow-main1">
+		<dt><span class="span">书籍详情</span></dt>
+		<div class="borrow-pic">
+			<img src="img/book5.png" >
+		</div>	
+		<dd class="b1">《西游记》<br>作者：吴承恩<br>编号：845123</dd>
+		<dd class="b2">X1</dd>
+		</dl>
+	</main>
+	<p class="borrow-rep">
+	<button type="button">确认还书</button>
+	</p>
+</body>
+</html>

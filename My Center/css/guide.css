@@ -1,0 +1,7 @@
+.swiper-container{
+  --swiper-theme-color: #ff6600;
+  --swiper-pagination-color: #00ff33;/* 两种都可以 */
+}
+.swiper-slide img{
+	width: 100%;
+}

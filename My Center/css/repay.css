@@ -1,0 +1,97 @@
+body{
+	background-color: #e5fcff;
+}
+.repay-header{
+	background-color: #008495;
+	height: .88rem;
+	width: 100%;
+}
+.repay-header a{
+	height: .88rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.repay-header img{
+	padding-left: 10px;
+	width: .32rem;
+	height: .32rem;
+}
+.repay-header p{
+	color: white;
+	font-size: 20px;
+	padding-right:10px;
+}
+.repay-menu{
+	margin:0;
+	display: flex;
+	justify-content: space-between;
+	padding:.1rem .4rem .1rem ;
+	background-color: white
+}
+.repay-menu input{
+	height: 0.6rem;
+	width: 80%;
+	border: 1px solid #000000;
+	/* background-color: #008495; */
+	border-radius: 8px;
+}
+.repay-menu button{
+	border: 0px;
+	width: 1.87rem;
+	height: 0.6rem;
+	border-radius: 8px;
+	background-color: #008495;
+	color: white;
+	margin: 0 .6rem 0 .3rem;
+	font-size: .36rem;
+}
+.repay-main{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	background:white;
+/* 	border-radius: 8px; */
+	padding:.08rem;
+	margin:.1rem .2rem;
+	box-sizing: border-box;
+}
+.repay-main .repay-pic {
+	padding: .1rem;
+}
+.repay-main .repay-pic img{
+	width: 100px;
+	height: 100px;
+	padding: .2rem;
+	border: 1px solid #C4D6D9;
+	border-radius: 8px;
+}
+.repay-main .repay-text dl{
+	display: block;
+	padding-left: .2rem;
+	font-weight: bold;
+	padding-bottom: .2rem;
+}
+.repay-main .repay-text dl dt{
+	padding: .2rem 0;
+	font-size: 12px;
+}
+.span{
+	padding: 0 .2rem.2rem 0;
+	font-size: 16px;
+}
+.repay-main .repay-text dl dd{
+	padding-bottom: .1rem;
+	font-size: 12px;
+}
+.repay-rep button{
+	border: 0px;
+	width: 1.2rem;
+	height: 0.4rem;
+	border-radius: 8px;
+	background-color: #008495;
+	color: white;
+	font-size: .14rem;
+	float: right;
+}
