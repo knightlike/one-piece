@@ -1,2 +1,3 @@
-let a='hello world';
+let a='hello world',b='hello';
+console.log(a);
 console.log(a);
